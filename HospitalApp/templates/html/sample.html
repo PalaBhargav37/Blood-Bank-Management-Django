@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sample Page</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/sample.css' %}">
+	<!--<script type="text/javascript">
+		alert("hello")
+	</script> -->
+	<script type="text/javascript" src="{% static 'js/sample.js'%}"></script>
+
+</head>
+<body>
+	<h3>css apply</h3>
+	<form>
+		<label>Patient</label>
+		<input type="text" name=""><br>
+		<label>Doctor</label>
+		<input type="text" name=""><br>
+		<label>Email</label>
+		<input type="email" name=""><br>
+		<button>clear</button>
+		<button id="h">submit</button>
+	</form>
+
+</body>
+</html>
